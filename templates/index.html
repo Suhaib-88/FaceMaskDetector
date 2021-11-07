@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-size: 30px ;
+  text-align: center;
+  font-weight: 400;
+        }
+    
+  img {
+    border-radius: 8px;
+    width: 50%;
+    height: 80%;  
+  }
+
+     
+
+
+/* Control the left side */
+    .main {
+    background-color: black;
+    }
+
+
+
+
+    </style>
+
+
+  <body>
+    <div class="main">
+        <div class="centered">
+          <img src="{{ url_for('video_feed') }}" width="500" height="600">
+          <p>Video capture.</p>
+        </div>
+      </div>
+    
+    </body>
+
+
+</html>
